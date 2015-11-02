@@ -1,0 +1,26 @@
+//
+//  WBPCH.pch
+//  子微帆博day1
+//
+//  Created by mac on 15/10/8.
+//  Copyright (c) 2015年 huiwen. All rights reserved.
+//
+
+#ifndef ____day1_WBPCH_pch
+#define ____day1_WBPCH_pch
+
+#import <UIKit/UIKit.h>
+#import "UIViewExt.h"
+#import "Common.h"
+#import "UIKit+AFNetworking.h"
+#define geo_to_address @"location/geo/geo_to_address.json"  //查询坐标对应的位置
+#define nearby_pois @"place/nearby/pois.json" // 附近商圈
+#define nearby_timeline  @"place/nearby_timeline.json" //附近动态
+
+#define kVersion [[UIDevice currentDevice].systemVersion doubleValue]
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
